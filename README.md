@@ -2,7 +2,7 @@
 
 A composer package for dockerizing Magento 2
 
-The composer package **arvatoscm/dockerize-magento2** deploys docker infrastructure defintion files such as [docker-compose.yml](docker-compose.yml) to your Magento 2 root folder and enables you to host your Magento 2 shops without having to install Apache/Nginx, MySQL or PHP on your system.
+The composer package **arvatoscm/dockerize-magento2** deploys docker infrastructure definition files such as [docker-compose.yml](docker-compose.yml) to your Magento 2 root folder and enables you to host your Magento 2 shops without having to install Apache/Nginx, MySQL or PHP on your system.
 
 ## Package Name
 
@@ -35,7 +35,7 @@ A folder which contains the configuration files for PHP, Nginx and phpMyAdmin
 
 ## Usage
 
-`dockerize-magento2` comes with `bin/console` script that can be used to install Magento and to execute Magentos' bin/magento script inside the PHP docker container:
+`dockerize-magento2` comes with `bin/console` script that can be used to install Magento and to execute Magento's `bin/magento` script inside the PHP docker container:
 
 Trigger the Magento 2 installation process:
 
@@ -87,7 +87,7 @@ BACKEND_FRONTNAME="management"
 ```
 
 If you want to use different parameters change the values in the [config/env.sh](config/env.sh) file to your needs.
-After customizing the parameters just run trigger the installation with `bin/console install <hostname>`.
+After customizing the parameters just trigger the installation with `bin/console install <hostname>`.
 
 ## Licensing
 
